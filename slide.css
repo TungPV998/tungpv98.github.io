@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+section.course .block-slide .body-text a {text-decoration: none;display: block;padding: 28px 0;box-sizing: border-box;}
+    
+section.course .block-slide .body-text a:hover h4 {
+    color: #f5424c;
+}
+
+section.course .block-slide .item .head-img img {
+    width: 100%;
+}
+
+section.course .block-slide .item .head-img {
+    width: 100%;
+    position: relative;
+    font-size: 1.4rem;
+    font-family: var(--font-general);
+}
+
+section.course .block-slide .item .head-img:after {content: "for sale";text-transform: capitalize;position: absolute;bottom: 12%;width: 115px;color: white;padding: 8px 0;background-color: #f53f51;left: 10%;}
+
+section.course .block-slide .item {
+    width: 30%;
+}
+
+section.course .block-slide {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+
+section.course .text-course .text {
+    margin-bottom: 80px;
+}
+
+section.course .text-course {
+    text-align: center;
+    padding: 130px 0;
+    position: relative;
+}
+
+
+
+section.course {
+    margin-top: 120px;
+    background-color:  #f9f9ff;
+}
