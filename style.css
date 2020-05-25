@@ -1189,10 +1189,11 @@ html {
     margin-bottom: 86px;
 }
 
-section.course .owl-nav.disabled,
+
+/* section.course .owl-nav.disabled,
 section.course .owl-dots.disabled {
     display: block;
-}
+} */
 
 
 /* Extra small devices (phones, 600px and down) */
